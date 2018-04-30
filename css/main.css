@@ -1827,7 +1827,7 @@ background
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bb134b;
+  background: #47ff98;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2710,12 +2710,12 @@ background
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar {
-    display: none;
+    display: auto;
   }
 }
 @media (max-width: 767px) {
   .sidebar {
-    display: none;
+    display: auto;
   }
 }
 .sidebar-toggle {
