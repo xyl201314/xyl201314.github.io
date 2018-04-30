@@ -445,7 +445,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 700px;
+  width: 900px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
@@ -457,7 +457,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 900px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
@@ -474,7 +474,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 700px;
+  width: 900px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
@@ -941,7 +941,7 @@ pre .javascript .function {
   padding: 0 20px;
   font-size: 14px;
   color: #555;
-  background: #fff;
+  background: glass;
   border: 2px solid #555;
   text-decoration: none;
   border-radius: 2px;
@@ -954,7 +954,7 @@ pre .javascript .function {
 .btn:hover {
   border-color: #222;
   color: #fff;
-  background: #222;
+  background: glass;
 }
 .btn +.btn {
   margin: 0 0 8px 8px;
@@ -1827,7 +1827,7 @@ background
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff2ef2;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2603,7 +2603,7 @@ background
 .header {
   position: relative;
   margin: 0 auto;
-  width: 960px;
+  width: 1200px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -2621,7 +2621,7 @@ background
   overflow: hidden;
   padding: 0;
   width: 240px;
-  background: #fff;
+  background-color: rgba(255,255,255,0.5);
   box-shadow: initial;
   border-radius: initial;
 }
@@ -2663,7 +2663,7 @@ background
   }
 }
 .container .main-inner {
-  width: 960px;
+  width: 1200px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2679,7 +2679,7 @@ background
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 700px;
+  width: 900px;
   background: glass;
   min-height: 700px;
   box-shadow: initial;
@@ -2722,7 +2722,7 @@ background
   display: none;
 }
 .footer-inner {
-  width: 960px;
+  width: 1200px;
   padding-left: 260px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3006,4 +3006,12 @@ body {
 }
 #footer a {
   color: #eee;
+}
+.post {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  background-color: rgba(255,255,255,0.7);
 }
