@@ -1894,7 +1894,7 @@ background
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #dddeff;
+  background: #ffcc8b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3071,12 +3071,4 @@ body {
 }
 #footer a {
   color: #eee;
-}
-.post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.9);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.9);
-  background-color: rgba(255,255,255,0.7);
 }
