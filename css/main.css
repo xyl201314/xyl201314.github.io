@@ -1894,7 +1894,7 @@ background
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff91ff;
+  background: #dddeff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2747,7 +2747,7 @@ background
   box-sizing: border-box;
   padding: 40px;
   width: 700px;
-  background: glass;
+  background: rgba(255,255,255,0.7);
   min-height: 700px;
   box-shadow: none;
   border-radius: initial;
